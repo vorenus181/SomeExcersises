@@ -1,0 +1,14 @@
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.Tests.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.Tests.pdb
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.Data.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.exe
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\log4net.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\Ninject.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.Data.pdb
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\PersonBook.pdb
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\log4net.xml
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\bin\Debug\Ninject.xml
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\obj\Debug\PersonBook.Tests.csprojResolveAssemblyReference.cache
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\obj\Debug\PersonBook.Tests.dll
+D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Tests\obj\Debug\PersonBook.Tests.pdb
