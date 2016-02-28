@@ -1,0 +1,6 @@
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\bin\Debug\SortedQueue.exe.config
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\bin\Debug\SortedQueue.exe
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\bin\Debug\SortedQueue.pdb
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\obj\Debug\SortedQueue.csprojResolveAssemblyReference.cache
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\obj\Debug\SortedQueue.exe
+D:\Projekty\Zadanie Procom\SparseArray\SortedQueue\SortedQueue\obj\Debug\SortedQueue.pdb

@@ -1,0 +1,70 @@
+2016-02-26 19:06:52,828 [8] ERROR AppLogClass - System.ObjectDisposedException: Nie mo¿na uzyskaæ dostêpu do zamkniêtego pliku.
+   w System.IO.__Error.FileNotOpen()
+   w System.IO.FileStream.ReadByte()
+   w ProtoBuf.ProtoReader.TryReadUInt32Variant(Stream source, UInt32& value) w c:\Dev\protobuf-net\protobuf-net\ProtoReader.cs:wiersz 1109
+   w ProtoBuf.ProtoReader.ReadLengthPrefix(Stream source, Boolean expectHeader, PrefixStyle style, Int32& fieldNumber, Int32& bytesRead) w c:\Dev\protobuf-net\protobuf-net\ProtoReader.cs:wiersz 1045
+   w ProtoBuf.Meta.TypeModel.DeserializeWithLengthPrefix(Stream source, Object value, Type type, PrefixStyle style, Int32 expectedField, TypeResolver resolver, Int32& bytesRead, Boolean& haveObject, SerializationContext context) w c:\Dev\protobuf-net\protobuf-net\Meta\TypeModel.cs:wiersz 318
+   w ProtoBuf.Meta.TypeModel.DeserializeItemsIterator.MoveNext() w c:\Dev\protobuf-net\protobuf-net\Meta\TypeModel.cs:wiersz 476
+   w System.Collections.ObjectModel.ObservableCollection`1.CopyFrom(IEnumerable`1 collection)
+   w System.Collections.ObjectModel.ObservableCollection`1..ctor(IEnumerable`1 collection)
+   w PersonBook.Main.MainViewModel.<LoadData>b__13_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 72
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-26 19:38:57,700 [8] ERROR AppLogClass - System.NullReferenceException: Odwo³anie do obiektu nie zosta³o ustawione na wyst¹pienie obiektu.
+   w PersonBook.Main.MainViewModel.<DeleteExecute>b__36_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 111
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-26 19:43:16,359 [8] ERROR AppLogClass - System.NullReferenceException: Odwo³anie do obiektu nie zosta³o ustawione na wyst¹pienie obiektu.
+   w PersonBook.Main.MainViewModel.<DeleteExecute>b__36_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 111
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-27 09:25:21,035 [9] ERROR AppLogClass - System.ArgumentNullException: Wartoœæ nie mo¿e byæ zerowa.
+Nazwa parametru: g
+   w System.Guid..ctor(String g)
+   w PersonBook.Data.Model.SerializableEntity.get_Id() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Model\SerializableEntity.cs:wiersz 23
+   w PersonBook.Main.MainViewModel.<DeleteExecute>b__44_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 130
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-27 09:31:37,539 [8] ERROR AppLogClass - System.Runtime.Serialization.SerializationException: Strumieñ wejœciowy nie ma prawid³owego formatu binarnego. Zawartoœæ pocz¹tkowa (w bajtach): 0A-1C-1A-05-44-61-77-69-64-22-06-50-61-7A-64-72-6F ...
+   w System.Runtime.Serialization.Formatters.Binary.SerializationHeaderRecord.Read(__BinaryParser input)
+   w System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadSerializationHeaderRecord()
+   w System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   w System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   w PersonBook.Data.Core.DataAccess.Read[T]() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Core\DataAccess.cs:wiersz 69
+   w PersonBook.Data.Repositories.Repository`1.ReadAll() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\Repository.cs:wiersz 41
+   w PersonBook.Main.MainViewModel.<LoadData>b__21_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 91
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-27 09:32:34,563 [8] ERROR AppLogClass - System.Runtime.Serialization.SerializationException: Próba deserializacji pustego strumienia.
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   w PersonBook.Data.Core.DataAccess.Read[T]() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Core\DataAccess.cs:wiersz 69
+   w PersonBook.Data.Repositories.Repository`1.ReadAll() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\Repository.cs:wiersz 41
+   w PersonBook.Main.MainViewModel.<LoadData>b__21_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 91
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-27 09:38:55,104 [8] ERROR AppLogClass - System.Runtime.Serialization.SerializationException: Przed ukoñczeniem analizy napotkano koniec strumienia.
+   w System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   w System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   w System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   w PersonBook.Data.Core.DataAccess.Read[T]() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Core\DataAccess.cs:wiersz 71
+   w PersonBook.Data.Repositories.Repository`1.ReadAll() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\Repository.cs:wiersz 41
+   w PersonBook.Main.MainViewModel.<LoadData>b__21_0(IRepository`1 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 91
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 17
+2016-02-27 10:53:56,894 [10] ERROR AppLogClass - System.ArgumentException: Liczba podanych argumentów rodzajowych nie jest równa liczbie argumentów definicji typu ogólnego.
+Nazwa parametru: instantiation
+   w System.RuntimeType.MakeGenericType(Type[] instantiation)
+   w Ninject.Activation.Providers.StandardProvider.GetImplementationType(Type service)
+   w Ninject.Activation.Providers.StandardProvider.Create(IContext context)
+   w Ninject.Activation.Context.ResolveInternal(Object scope)
+   w Ninject.Activation.Context.Resolve()
+   w Ninject.KernelBase.<>c__DisplayClass15.<Resolve>b__f(IBinding binding)
+   w System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   w System.Linq.Enumerable.<CastIterator>d__94`1.MoveNext()
+   w System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   w Ninject.ResolutionExtensions.Get[T](IResolutionRoot root, IParameter[] parameters)
+   w PersonBook.Data.Infrastructure.NinjectKernel.Get[T]() w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Infrastructure\NinjectKernel.cs:wiersz 19
+   w PersonBook.Data.Repositories.RepositoryProxy`1.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 16
+2016-02-27 11:35:32,393 [8] ERROR AppLogClass - System.NullReferenceException: Odwo³anie do obiektu nie zosta³o ustawione na wyst¹pienie obiektu.
+   w PersonBook.Data.Mapping.Concrete.PersonMapper.Map(Person source, PersonDto destination) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Mapping\Concrete\PersonMapper.cs:wiersz 12
+   w PersonBook.Data.Mapping.Mapper`2.Map(TModelEntity source) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Mapping\Mapper.cs:wiersz 41
+   w PersonBook.Data.Repositories.Repository`2.Create(TEntity entity) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\Repository.cs:wiersz 40
+   w PersonBook.Main.MainViewModel.<SaveExecute>b__45_0(IRepository`2 repo) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook\Main\MainViewModel.cs:wiersz 152
+   w PersonBook.Data.Repositories.RepositoryProxy`2.Execute(CodeBlock codeBlock) w D:\Projekty\Zadanie Procom\PersonBook\PersonBook\PersonBook.Data\Repositories\RepositoryProxy.cs:wiersz 19
